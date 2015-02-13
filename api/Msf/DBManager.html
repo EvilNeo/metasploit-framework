@@ -1285,7 +1285,7 @@ Ruby 1.8.6.</p>
 
 <span class='kw'>def</span> <span class='id identifier rubyid_check'>check</span>
 <span class='op'>::</span><span class='const'>ActiveRecord</span><span class='op'>::</span><span class='const'>Base</span><span class='period'>.</span><span class='id identifier rubyid_connection_pool'>connection_pool</span><span class='period'>.</span><span class='id identifier rubyid_with_connection'>with_connection</span> <span class='lbrace'>{</span>
-  <span class='id identifier rubyid_res'>res</span> <span class='op'>=</span> <span class='op'>::</span><span class='const'>Mdm</span><span class='op'>::</span><span class='const'>Host</span><span class='period'>.</span><span class='id identifier rubyid_find'>find</span><span class='lparen'>(</span><span class='symbol'>:first</span><span class='rparen'>)</span>
+  <span class='id identifier rubyid_res'>res</span> <span class='op'>=</span> <span class='op'>::</span><span class='const'>Mdm</span><span class='op'>::</span><span class='const'>Host</span><span class='period'>.</span><span class='id identifier rubyid_first'>first</span>
 <span class='rbrace'>}</span>
 <span class='kw'>end</span></pre>
     </td>
@@ -1428,7 +1428,7 @@ say 1.9.3 and beyond.</p>
 </div>
 
     <div id="footer">
-  Generated on Tue Feb 10 10:50:09 2015 by
+  Generated on Fri Feb 13 12:49:17 2015 by
   <a href="http://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
   0.8.7.4 (ruby-2.1.5).
 </div>
